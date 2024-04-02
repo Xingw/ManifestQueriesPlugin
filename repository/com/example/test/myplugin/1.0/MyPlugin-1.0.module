@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.test",
+    "module": "MyPlugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "MyPlugin-1.0.jar",
+          "url": "MyPlugin-1.0.jar",
+          "size": 15181,
+          "sha512": "ea855c770e4670cb8d4fb5c70d9024130db965a8533795f8a7c45f41aa29c8289e5bcc2199b6e133d4b717ade62b496ac9d8798c271df277c7d26540fa936668",
+          "sha256": "05a1a8a8e33f2e43679d40630090b9ce6f2d6033f1fe9bd491d40624e402a4d4",
+          "sha1": "47453c533f0fff3e40804ea1a58c841253b3db3e",
+          "md5": "0234993221e3271a5624e98863e9205e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "MyPlugin-1.0.jar",
+          "url": "MyPlugin-1.0.jar",
+          "size": 15181,
+          "sha512": "ea855c770e4670cb8d4fb5c70d9024130db965a8533795f8a7c45f41aa29c8289e5bcc2199b6e133d4b717ade62b496ac9d8798c271df277c7d26540fa936668",
+          "sha256": "05a1a8a8e33f2e43679d40630090b9ce6f2d6033f1fe9bd491d40624e402a4d4",
+          "sha1": "47453c533f0fff3e40804ea1a58c841253b3db3e",
+          "md5": "0234993221e3271a5624e98863e9205e"
+        }
+      ]
+    }
+  ]
+}

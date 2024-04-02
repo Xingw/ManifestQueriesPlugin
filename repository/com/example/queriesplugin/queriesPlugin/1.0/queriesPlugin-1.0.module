@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.queriesplugin",
+    "module": "queriesPlugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "queriesPlugin-1.0.jar",
+          "url": "queriesPlugin-1.0.jar",
+          "size": 16490,
+          "sha512": "89a82612e0e54277ae5468c10d9d41ca208c817638ddc0c58719b2dad1880fe7559873510006a26ca40e520f7cdd88784ea8f3d33e2b1129d9e2db9dddd9b5dc",
+          "sha256": "2a12af8b29ddb52abbc7a33622ea4a508d6a56b582f5c01d89da7c942559bebf",
+          "sha1": "52526fd2637228bd7b2344db42f35514974b2c3c",
+          "md5": "7fa9ede603bc7069802ac990b4da3e61"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "queriesPlugin-1.0.jar",
+          "url": "queriesPlugin-1.0.jar",
+          "size": 16490,
+          "sha512": "89a82612e0e54277ae5468c10d9d41ca208c817638ddc0c58719b2dad1880fe7559873510006a26ca40e520f7cdd88784ea8f3d33e2b1129d9e2db9dddd9b5dc",
+          "sha256": "2a12af8b29ddb52abbc7a33622ea4a508d6a56b582f5c01d89da7c942559bebf",
+          "sha1": "52526fd2637228bd7b2344db42f35514974b2c3c",
+          "md5": "7fa9ede603bc7069802ac990b4da3e61"
+        }
+      ]
+    }
+  ]
+}

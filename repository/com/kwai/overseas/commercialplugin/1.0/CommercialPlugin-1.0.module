@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kwai.overseas",
+    "module": "CommercialPlugin",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "CommercialPlugin-1.0.jar",
+          "url": "CommercialPlugin-1.0.jar",
+          "size": 15377,
+          "sha512": "6402a4e6bea153e434464bfc5317165cc4f2be48308c39da90a455c0ba60082253d862c976d86e5f314ab32798f0eaa63221e9c3b14a110786dd771a05e18b83",
+          "sha256": "ae2be2dd08d5e9bc015052e4688002359654120a30fb7769e12361afb0b6914f",
+          "sha1": "365ad8d3c85c8bacb60313fc71fd5d2392e4c548",
+          "md5": "b4cc63822ce219562e90a0caf08be3a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CommercialPlugin-1.0.jar",
+          "url": "CommercialPlugin-1.0.jar",
+          "size": 15377,
+          "sha512": "6402a4e6bea153e434464bfc5317165cc4f2be48308c39da90a455c0ba60082253d862c976d86e5f314ab32798f0eaa63221e9c3b14a110786dd771a05e18b83",
+          "sha256": "ae2be2dd08d5e9bc015052e4688002359654120a30fb7769e12361afb0b6914f",
+          "sha1": "365ad8d3c85c8bacb60313fc71fd5d2392e4c548",
+          "md5": "b4cc63822ce219562e90a0caf08be3a9"
+        }
+      ]
+    }
+  ]
+}
